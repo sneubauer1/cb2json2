@@ -1,7 +1,7 @@
 cb2json
 =======
 
-[Copybook](1) to [JSON](2) conversion. 
+[Copybook][1] to [JSON][2] conversion. 
 
 This library converts a fixed-width data stream into its JSON
 equivalent using a Copybook to define both structures.
@@ -37,24 +37,24 @@ Version 1
 
 A simple prototype that makes many internal data conversions:
 
-* Uses a [fork](3) of the [cb2java](4) library to parse a Copybook into a tree of [cb2java Data objects](5)
-* Convert the [Data tree](5) into a [POJO](7) tree of [Maps](8) and [Lists](9) using [toMap](6)
-* Convert the POJO tree to JSON using [Jacksons](10) [ObjectMapper](11)
+* Uses a [fork][3] of the [cb2java][4] library to parse a Copybook into a tree of [cb2java Data objects][5]
+* Convert the [Data tree](5) into a [POJO][7] tree of [Maps][8] and [Lists][9] using [toMap][6]
+* Convert the POJO tree to JSON using [Jacksons][10] [ObjectMapper][11]
 
 Version 2
 ---------
 
 Possible improvements:
 
-* skip the conversion from [Data](5) to POJOs
-* write the data directly to the [Jackson streaming API](12)
+* skip the conversion from [Data][5] to POJOs
+* write the data directly to the [Jackson streaming API][12]
 
 Version 3
 ---------
 
 * Make one pass ovee the Copybook stream 
-* Do not generate the intermediate [cb2java Data objects](5) 
-* Write JSON directly to the output stream using [Jackson streaming API](12)x
+* Do not generate the intermediate [cb2java Data objects][5] 
+* Write JSON directly to the output stream using [Jackson streaming API][12]
 
 
 [1]: http://en.wikipedia.org/wiki/Copybook_(programming)
