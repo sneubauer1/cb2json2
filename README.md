@@ -17,6 +17,18 @@ Install
     cd cb2json
     mvn install
 
+Include the JAR file in your Java project pom.xml:
+
+    <dependency>
+        <groupId>net.devstopfix.cb2json</groupId>
+        <artifactId>cb2json</artifactId>
+        <version>1.1</version>
+    </dependency>
+
+or your [Leiningen](https://github.com/technomancy/leiningen) project.clj:
+
+    [net.devstopfix.cb2json/cb2json "1.1"]
+
 
 Workflow
 ========
