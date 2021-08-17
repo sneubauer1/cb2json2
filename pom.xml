@@ -32,7 +32,7 @@
     <dependency>
       <groupId>net.sf.cb2java</groupId>
       <artifactId>cb2java</artifactId>
-      <version>5.4</version>
+      <version>5.3</version>
     </dependency>
     <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
